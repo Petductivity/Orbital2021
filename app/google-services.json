@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096318921607",
+    "project_id": "petductivity-v2",
+    "storage_bucket": "petductivity-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096318921607:android:f268ae854b6a06abf20122",
+        "android_client_info": {
+          "package_name": "com.example.petductivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096318921607-2q43f14voa4qaftn59nmfbng24fif127.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc0E9-0_wQO96jhriECxcm7feY2fvzGwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096318921607-2q43f14voa4qaftn59nmfbng24fif127.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
