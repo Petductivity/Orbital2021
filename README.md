@@ -49,7 +49,7 @@ Additional Feature: If you have forgotten your password, fret not! You can reset
 You will be able to see the overview of the entire month. 
 Click on the specific date that you wish to plan your activites. You will be brought to a week view page. 
 
-![gif](images/planner dashboard2.png)  ![gif](images/planner dashboard1.png)
+![image](images/planner dashboard2.png)  ![image](images/planner dashboard1.png)
 
 In the week view page, you will be able to add an activity for the selected date by clicking on the `+` button on the bottom left hand corner of the screen. 
 You will be required to key in the following information: 
