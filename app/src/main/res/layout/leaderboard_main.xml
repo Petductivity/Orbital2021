@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".task.TodoMainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/titleLeadeboard"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:background="#3EA055"
+            android:gravity="center"
+            android:text="Leaderboard"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/medal2"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="45dp"
+            android:rotation="-12"
+            android:src="@drawable/medal"></ImageView>
+
+        <ImageView
+            android:id="@+id/medal1"
+            android:layout_width="45sp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="-237dp"
+            android:layout_marginTop="45dp"
+            android:rotation="12"
+            android:src="@drawable/medal"></ImageView>
+
+
+        <TextView
+            android:id="@+id/leaderboardBackToHomePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To Home Page"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/todo_back_arrow"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#046307"
+            android:layout_marginTop="105dp"></View>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/leaderboardRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

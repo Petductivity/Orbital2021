@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".settings.HelpActivity">
+
+    <TextView
+        android:id="@+id/arrowClickHelp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/bgTextViewHelp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/royal_blue"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:paddingLeft="17dip"
+        android:paddingTop="5dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/bgTextViewHelp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/helpTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:gravity="center"
+                android:text="Help"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_baseline_help_center_24"></ImageView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgTextViewHelp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:background="@color/azureish_white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to use the app?"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/galada"
+                android:gravity="center"
+                android:padding="2dp"
+                android:textSize="20dp"
+                android:layout_marginTop="16dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:text="@string/Help_How_To_Use">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why am I not getting any EXP and/or badges?"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/galada"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:text="@string/Not_Getting_Exp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="When does my Pet evolve?"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/galada"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:text="@string/About_leveling">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How many badges are there?"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/galada"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:text="@string/Help_How_Many_Badges">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to get more badges?"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/galada"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginTop="32dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:text="@string/How_to_get_more_badges">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Contact Us"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="2dp"
+                android:fontFamily="@font/galada"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Feel free to drop us an email at:"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <TextView
+                android:id="@+id/helpEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/Petductivity_Email"
+                android:textColor="@color/black"
+                android:textSize="16dp"></TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="32dp">
+
+                <TextView
+                    android:id="@+id/petductivityTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginEnd="136dp"
+                    android:layout_marginRight="136dp"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Petductivity"
+                    android:textColor="@color/navy_blue"
+                    android:textSize="38sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/taglineTextViewHome"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/pokeballMain"
+                    android:layout_width="69dp"
+                    android:layout_height="75dp"
+                    android:rotation="-12"
+                    app:layout_constraintBottom_toBottomOf="@+id/taglineTextViewHome"
+                    app:layout_constraintStart_toEndOf="@+id/petductivityTextView"
+                    app:srcCompat="@drawable/pokeball" />
+
+                <TextView
+                    android:id="@+id/taglineTextViewHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/galada"
+                    android:text="Productivity PLanner Mobile App"
+                    android:textColor="@color/royal_blue"
+                    app:layout_constraintEnd_toEndOf="@+id/petductivityTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/petductivityTextView" />
+
+                <ImageView
+                    android:id="@+id/pikachuImageViewHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="-5"
+                    android:src="@drawable/pikachu"
+                    app:layout_constraintBottom_toTopOf="@+id/petductivityTextView"
+                    app:layout_constraintStart_toStartOf="@+id/petductivityTextView" />
+
+                <ImageView
+                    android:id="@+id/SquirtleImageViewHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:rotation="-2.5"
+                    android:src="@drawable/squirtle"
+                    app:layout_constraintBottom_toTopOf="@+id/petductivityTextView"
+                    app:layout_constraintEnd_toStartOf="@+id/CharImageViewHome"
+                    app:layout_constraintStart_toStartOf="@+id/petductivityTextView" />
+
+                <ImageView
+                    android:id="@+id/CharImageViewHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:rotation="5"
+                    android:src="@drawable/charmander"
+                    app:layout_constraintBottom_toTopOf="@+id/petductivityTextView"
+                    app:layout_constraintEnd_toEndOf="@+id/pokeballMain" />
+
+                <ImageView
+                    android:id="@+id/BulbImageViewHome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:rotation="2.5"
+                    android:src="@drawable/bulbasaur"
+                    app:layout_constraintBottom_toTopOf="@+id/petductivityTextView"
+                    app:layout_constraintEnd_toEndOf="@+id/pokeballMain"
+                    app:layout_constraintStart_toEndOf="@+id/pikachuImageViewHome" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
