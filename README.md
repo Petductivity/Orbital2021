@@ -1,13 +1,18 @@
-# Petductivity
+# Petductivity 
 
 ## About
 Petductivity is an Android mobile application that provides you with the motivation to plan and focus on your daily tasks. The application seeks to help users plan and execute their essential tasks (eg. homeworks and projects) by giving reminders and rewards users with in-app achievements.
 
+![gif](images/Homepage.png)
+
 ## Installation
 
-You can try out our application by downloading it from [here](https://drive.google.com/file/d/1c2lXfnOhVCkVk_ovGtj6ceajoYZQ5ZH7/view?usp=sharing).
+You can try out our application by scanning the QR code and download the application from [here](https://drive.google.com/file/d/1yQEzUOT6jeE52mxH8StiuewJZPkXu_LI/view?usp=sharing).
+
+Watch the [video](https://drive.google.com/file/d/1vSFqG4OPiy7X9yxR2ujCiS7FxZZ6lQm7/view?usp=sharing) on how to start using Petductivity!
 
 Ensure that your device runs on Android API 26 and above, otherwise some features may not work as expected.
+
 **Take note**: 
 1. Ensure that your device runs on Android API 26 and above, otherwise some features may not work as expected.
 2. This application is meant for Android mobile phones only, hence if you are using a tablet, it may not work as expected.
@@ -34,6 +39,8 @@ Ensure that your device runs on Android API 26 and above, otherwise some feature
 
 To register: Click on `Need an account? Create an Account Here!`
 
+![image](images/login.png) ![image](images/register.png)
+
 Additional Feature: If you have forgotten your password, fret not! You can reset your passsword by clicking on `Forget Password` at the Login Page.
 
 
@@ -41,6 +48,9 @@ Additional Feature: If you have forgotten your password, fret not! You can reset
 
 You will be able to see the overview of the entire month. 
 Click on the specific date that you wish to plan your activites. You will be brought to a week view page. 
+
+![image](images/calender.png)  ![image](images/planner.png)
+
 In the week view page, you will be able to add an activity for the selected date by clicking on the `+` button on the bottom left hand corner of the screen. 
 You will be required to key in the following information: 
 1. `Title`
@@ -48,6 +58,7 @@ You will be required to key in the following information:
 3. `End time`
 
 You will be able to edit/delete the details of your activity by clicking on the activity that you wish to edit/delete.
+
 After completing an activity, you can check on the checkbox and receive your rewards.
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
@@ -56,6 +67,9 @@ Additional feature: If you are unsure of how this section works, you can click o
 ## Important Tasks
 
 You will be able to see your list of todos in this section. 
+
+![gif](images/task.png)
+
 You can add new tasks by clicking on the `+` button on the bottom left hand corner of the screen.
 You will be required to key in the following information: 
 1. `Title`
@@ -63,9 +77,13 @@ You will be required to key in the following information:
 3. `Due date`
 4. `Set Reminder` - switch it on if you wish to receive reminders on the due date, otherwise switch it off.
 
+
 You will be able to edit/delete the details of your task by clicking on the task that you wish to edit/delete.
 
+You can check on the checkbox when you have completed the task.
+
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
+
 
 
 ## My Pets
@@ -77,6 +95,7 @@ Once the pet reaches a certain level, it will automatically evolve to the next e
 
 However, do take note that for you pet to receive experience points, your completed tasks must be atleast **30 minutes** long.
 
+![gif](images/pets.png)
 
 ## Achievements
 
@@ -90,12 +109,14 @@ Pokemon from other regions will be progressively added into the list of collecti
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
+![gif](images/achievements.png)
 
 ## Leaderboard
 
 You will be able to see your rankings among all other app users in this section.
 You can make use of this section to see how productive you have been (if you are the competitive type).
 
+![gif](images/leaderboard.png)
 
 ## Focus Mode
 
@@ -111,6 +132,8 @@ However, do take note that Focus Mode can only be unlocked **once per day**.
 
 In this section, you can change your account settings.
 
+![gif](images/setting.png)
+
 ### Change Name
 
 Allows you to change your account name, which will be displayed in the `Leaderboard` section.
@@ -124,22 +147,27 @@ Allows you to change your account password.
 Allows you to view commonly asked questions and commonly faced difficulties.
 You can also find our email address and contact us directly.
 
+
 ### About Petductivity
 
 Allows you to find out more about this application.
+
 
 ### Provide Feedback
 
 Click on the `Petductivity Feedback Form`.
 This will bring you to your browser where a google form will be loaded. You can provide your feedback through the google forms.
 
+
 ### Delete Account
 
 Allows you to delete your account, including all of your account data.
 
+
 ### Logout
 
 Allows you to logout of your current account.
+
 
 
 ## Acknowledgement
@@ -156,6 +184,14 @@ Allows you to logout of your current account.
 10. [Leaderboard Icon](https://www.flaticon.com/free-icon/podium_1386734?term=leaderboard&page=1&position=64&page=1&position=64&related_id=1386734&origin=search) by Freepik from www.flaticon.com 
 11. [Medal Icon](https://www.flaticon.com/free-icon/medal_744922?term=medal&page=1&position=4&page=1&position=4&related_id=744922&origin=search) by Vectors Market from www.flaticon.com
 12. Other icons used from Android Studio Vector Assests.
+
+
+## Development Tech Stack
+1. Android Studio
+2. Java 
+3. Firebase
+4. Google Drive
+5. Google Forms
 
 
 ## Disclaimer
