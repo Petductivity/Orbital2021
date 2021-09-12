@@ -39,18 +39,18 @@ Ensure that your device runs on Android API 26 and above, otherwise some feature
 
 To register: Click on `Need an account? Create an Account Here!`
 
-![gif](images/Login Registration/Registration.gif) ![gif](images/Login Registration/Verification.gif)
+![gif](images/Registration.gif) ![gif](images/Verification.gif)
 
 Additional Feature: If you have forgotten your password, fret not! You can reset your passsword by clicking on `Forget Password` at the Login Page.
 
-![gif](images/Login Registration/reset password.gif)
+![gif](images/reset password.gif)
 
 ## My Planner
 
 You will be able to see the overview of the entire month. 
 Click on the specific date that you wish to plan your activites. You will be brought to a week view page. 
 
-![gif](images/Planner/dashboard2.png)  ![gif](images/Planner/dashboard1.png)
+![gif](images/planner dashboard2.png)  ![gif](images/planner dashboard1.png)
 
 In the week view page, you will be able to add an activity for the selected date by clicking on the `+` button on the bottom left hand corner of the screen. 
 You will be required to key in the following information: 
@@ -58,15 +58,15 @@ You will be required to key in the following information:
 2. `Start time`
 3. `End time`
 
-![gif](images/Planner/Add Activity.gif)
+![gif](images/Add Activity.gif)
 
 You will be able to edit/delete the details of your activity by clicking on the activity that you wish to edit/delete.
 
-![gif](images/Planner/Update Activity.gif) ![gif](images/Planner/Delete Activity.gif)
+![gif](images/Update Activity.gif) ![gif](images/Delete Activity.gif)
 
 After completing an activity, you can check on the checkbox and receive your rewards.
 
-![gif](images/Planner/Activity Complete.gif)
+![gif](images/Activity Complete.gif)
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
@@ -75,7 +75,7 @@ Additional feature: If you are unsure of how this section works, you can click o
 
 You will be able to see your list of todos in this section. 
 
-![gif](images/Important Task/dashboard.png)
+![gif](images/Important task dashboard.png)
 
 You can add new tasks by clicking on the `+` button on the bottom left hand corner of the screen.
 You will be required to key in the following information: 
@@ -84,11 +84,15 @@ You will be required to key in the following information:
 3. `Due date`
 4. `Set Reminder` - switch it on if you wish to receive reminders on the due date, otherwise switch it off.
 
-![gif](images/Important Task/Add task.gif) ![gif](images/Important Task/Reminder.gif)
+![gif](images/Add task.gif) ![gif](images/Reminder.gif)
 
 You will be able to edit/delete the details of your task by clicking on the task that you wish to edit/delete.
 
-![gif](images/Important Task/Update task.gif) ![gif](images/Important Task/Delete task.gif)
+![gif](images/Update task.gif) ![gif](images/Delete task.gif) 
+
+You can check on the checkbox when you have completed the task.
+
+![gif](images/Complete task.gif)
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
@@ -103,7 +107,7 @@ Once the pet reaches a certain level, it will automatically evolve to the next e
 
 However, do take note that for you pet to receive experience points, your completed tasks must be atleast **30 minutes** long.
 
-![gif](images/Pets/Pets.gif)
+![gif](images/pets.png)
 
 ## Achievements
 
@@ -117,14 +121,14 @@ Pokemon from other regions will be progressively added into the list of collecti
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
-![gif](images/Achievements/Achievement.gif)
+![gif](images/achievements.png)
 
 ## Leaderboard
 
 You will be able to see your rankings among all other app users in this section.
 You can make use of this section to see how productive you have been (if you are the competitive type).
 
-![gif](images/Leaderboard/leaderboard.gif)
+![gif](images/leaderboard.png)
 
 ## Focus Mode
 
@@ -140,7 +144,7 @@ However, do take note that Focus Mode can only be unlocked **once per day**.
 
 In this section, you can change your account settings.
 
-![gif](images/Settings/Dashboard.gif)
+![gif](images/setting.png)
 
 ### Change Name
 
