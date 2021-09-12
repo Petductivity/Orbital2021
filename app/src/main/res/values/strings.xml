@@ -1,0 +1,735 @@
+<resources>
+    <string name="app_name">Petductivity</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+
+    <string-array name="achievement_names">
+        <item>placeholder</item>
+        <item>Bulbasaur</item>
+        <item>Ivysaur</item>
+        <item>Venusaur</item>
+        <item>Charmander</item>
+        <item>Charmeleon</item>
+        <item>Charizard</item>
+        <item>Squirtle</item>
+        <item>Wartortle</item>
+        <item>Blastoise</item>
+        <item>Caterpie</item>
+        <item>Metapod</item>
+        <item>Butterfree</item>
+        <item>Weedle</item>
+        <item>Kakuna</item>
+        <item>Beedrill</item>
+        <item>Pidgey</item>
+        <item>Pidgeotto</item>
+        <item>Pidgeot</item>
+        <item>Rattata</item>
+        <item>Raticate</item>
+        <item>Spearow</item>
+        <item>Fearow</item>
+        <item>Ekans</item>
+        <item>Arbok</item>
+        <item>Pikachu</item>
+        <item>Raichu</item>
+        <item>Sandshrew</item>
+        <item>Sandslash</item>
+        <item>Nidoran</item>
+        <item>Nidorina</item>
+        <item>Nidoqueen</item>
+        <item>Nidoran</item>
+        <item>Nidorino</item>
+        <item>Nidoking</item>
+        <item>Clefairy</item>
+        <item>Clefable</item>
+        <item>Vulpix</item>
+        <item>Ninetales</item>
+        <item>Jigglypuff</item>
+        <item>Wigglytuff</item>
+        <item>Zubat</item>
+        <item>Golbat</item>
+        <item>Oddish</item>
+        <item>Gloom</item>
+        <item>Vileplume</item>
+        <item>Paras</item>
+        <item>Parasect</item>
+        <item>Venonat</item>
+        <item>Venomoth</item>
+        <item>Diglett</item>
+        <item>Dugtrio</item>
+        <item>Meowth</item>
+        <item>Persian</item>
+        <item>Psyduck</item>
+        <item>Golduck</item>
+        <item>Mankey</item>
+        <item>Primeape</item>
+        <item>Growlithe</item>
+        <item>Arcanine</item>
+        <item>Poliwag</item>
+        <item>Poliwhirl</item>
+        <item>Poliwrath</item>
+        <item>Abra</item>
+        <item>Kadabra</item>
+        <item>Alakazam</item>
+        <item>Machop</item>
+        <item>Machoke</item>
+        <item>Machamp</item>
+        <item>Bellsprout</item>
+        <item>Weepinbell</item>
+        <item>Victreebel</item>
+        <item>Tentacool</item>
+        <item>Tentacruel</item>
+        <item>Geodude</item>
+        <item>Graveler</item>
+        <item>Golem</item>
+        <item>Ponyta</item>
+        <item>Rapidash</item>
+        <item>Slowpoke</item>
+        <item>Slowbro</item>
+        <item>Magnemite</item>
+        <item>Magneton</item>
+        <item>Farfetchd</item>
+        <item>Doduo</item>
+        <item>Dodrio</item>
+        <item>Seel</item>
+        <item>Dewgong</item>
+        <item>Grimer</item>
+        <item>Muk</item>
+        <item>Shellder</item>
+        <item>Cloyster</item>
+        <item>Gastly</item>
+        <item>Haunter</item>
+        <item>Gengar</item>
+        <item>Onix</item>
+        <item>Drowzee</item>
+        <item>Hypno</item>
+        <item>Krabby</item>
+        <item>Kingler</item>
+        <item>Voltorb</item>
+        <item>Electrode</item>
+        <item>Exeggcute</item>
+        <item>Exeggutor</item>
+        <item>Cubone</item>
+        <item>Marowak</item>
+        <item>Hitmonlee</item>
+        <item>Hitmonchan</item>
+        <item>Lickitung</item>
+        <item>Koffing</item>
+        <item>Weezing</item>
+        <item>Rhyhorn</item>
+        <item>Rhydon</item>
+        <item>Chansey</item>
+        <item>Tangela</item>
+        <item>Kangaskhan</item>
+        <item>Horse</item>
+        <item>Seadra</item>
+        <item>Goldeen</item>
+        <item>Seaking</item>
+        <item>Staryu</item>
+        <item>Starmie</item>
+        <item>Mr. Mine</item>
+        <item>Scyther</item>
+        <item>Jynx</item>
+        <item>Electabuzz</item>
+        <item>Magmar</item>
+        <item>Pinsir</item>
+        <item>Tauros</item>
+        <item>Magikarp</item>
+        <item>Gyarados</item>
+        <item>Lapras</item>
+        <item>Ditto</item>
+        <item>Eevee</item>
+        <item>Vaporeon</item>
+        <item>Jolteon</item>
+        <item>Flareon</item>
+        <item>Porygon</item>
+        <item>Omanyte</item>
+        <item>Omastar</item>
+        <item>Kabuto</item>
+        <item>Kabutops</item>
+        <item>Aerodactyl</item>
+        <item>Snorlax</item>
+        <item>Articuno</item>
+        <item>Zapdos</item>
+        <item>Moltres</item>
+        <item>Dratini</item>
+        <item>Dragonair</item>
+        <item>Dragonite</item>
+        <item>Mewtwo</item>
+        <item>Mew</item>
+    </string-array>
+
+    <string-array name="achievement_descriptions">
+        <item>placeholder</item>
+        <item>#001 | Grass, Poison</item>
+        <item>#002 | Grass, Poison</item>
+        <item>#003 | Grass, Poison</item>
+        <item>#004 | Fire</item>
+        <item>#005 | Fire</item>
+        <item>#006 | Fire, Flying</item>
+        <item>#007 | Water</item>
+        <item>#008 | Water</item>
+        <item>#009 | Water</item>
+        <item>#010 | Bug</item>
+        <item>#011 | Bug</item>
+        <item>#012 | Bug, Flying</item>
+        <item>#013 | Bug, Poison</item>
+        <item>#014 | Bug, Poison</item>
+        <item>#015 | Bug, Poison</item>
+        <item>#016 | Normal, Flying</item>
+        <item>#017 | Normal, Flying</item>
+        <item>#018 | Normal, Flying</item>
+        <item>#019 | Normal</item>
+        <item>#020 | Normal</item>
+        <item>#021 | Normal, Flying</item>
+        <item>#022 | Normal, Flying</item>
+        <item>#023 | Poison</item>
+        <item>#024 | Poison</item>
+        <item>#025 | Electric</item>
+        <item>#026 | Electric</item>
+        <item>#027 | Ground</item>
+        <item>#028 | Ground</item>
+        <item>#029 | Poison</item>
+        <item>#030 | Poison</item>
+        <item>#031 | Poison, Ground</item>
+        <item>#032 | Poison</item>
+        <item>#033 | Poison</item>
+        <item>#034 | Poison, Ground</item>
+        <item>#035 | Fairy</item>
+        <item>#036 | Fairy</item>
+        <item>#037 | Fire</item>
+        <item>#038 | Fire</item>
+        <item>#039 | Normal, Fairy</item>
+        <item>#040 | Normal, Fairy</item>
+        <item>#041 | Poison, Flying</item>
+        <item>#042 | Poison, Flying</item>
+        <item>#043 | Grass, Poison</item>
+        <item>#044 | Grass, Poison</item>
+        <item>#045 | Grass, Poison</item>
+        <item>#046 | Bug, Grass</item>
+        <item>#047 | Bug, Grass</item>
+        <item>#048 | Bug, Poison</item>
+        <item>#049 | Bug, Poison</item>
+        <item>#050 | Ground</item>
+        <item>#051 | Ground</item>
+        <item>#052 | Normal</item>
+        <item>#053 | Normal</item>
+        <item>#054 | Water</item>
+        <item>#055 | Water</item>
+        <item>#056 | Fighting</item>
+        <item>#057 | Fighting</item>
+        <item>#058 | Fire</item>
+        <item>#059 | Fire</item>
+        <item>#060 | Water</item>
+        <item>#061 | Water</item>
+        <item>#062 | Water, Fighting</item>
+        <item>#063 | Psychic</item>
+        <item>#064 | Psychic</item>
+        <item>#065 | Psychic</item>
+        <item>#066 | Fighting</item>
+        <item>#067 | Fighting</item>
+        <item>#068 | Fighting</item>
+        <item>#069 | Grass, Poison</item>
+        <item>#070 | Grass, Poison</item>
+        <item>#071 | Grass, Poison</item>
+        <item>#072 | Water, Poison</item>
+        <item>#073 | Water, Poison</item>
+        <item>#074 | Rock, Ground</item>
+        <item>#075 | Rock, Ground</item>
+        <item>#076 | Rock, Ground</item>
+        <item>#077 | Fire</item>
+        <item>#078 | Fire</item>
+        <item>#079 | Water, Psychic</item>
+        <item>#080 | Water, Psychic</item>
+        <item>#081 | Electric, Steel</item>
+        <item>#082 | Electric, Steel</item>
+        <item>#083 | Normal, Flying</item>
+        <item>#084 | Normal, Flying</item>
+        <item>#085 | Normal, Flying</item>
+        <item>#086 | Water</item>
+        <item>#087 | Water, Ice</item>
+        <item>#088 | Poison</item>
+        <item>#089 | Poison</item>
+        <item>#090 | Water</item>
+        <item>#091 | Water, Ice</item>
+        <item>#092 | Ghost, Poison</item>
+        <item>#093 | Ghost, Poison</item>
+        <item>#094 | Ghost, Poison</item>
+        <item>#095 | Rock, Ground</item>
+        <item>#096 | Psychic</item>
+        <item>#097 | Psychic</item>
+        <item>#098 | Water</item>
+        <item>#099 | Water</item>
+        <item>#100 | Electric</item>
+        <item>#101 | Electric</item>
+        <item>#102 | Grass, Psychic</item>
+        <item>#103 | Grass, Psychic</item>
+        <item>#104 | Ground</item>
+        <item>#105 | Ground</item>
+        <item>#106 | Fighting</item>
+        <item>#107 | Fighting</item>
+        <item>#108 | Normal</item>
+        <item>#109 | Poison</item>
+        <item>#110 | Poison</item>
+        <item>#111 | Ground, Rock</item>
+        <item>#112 | Ground, Rock</item>
+        <item>#113 | Normal</item>
+        <item>#114 | Grass</item>
+        <item>#115 | Normal</item>
+        <item>#116 | Water</item>
+        <item>#117 | Water</item>
+        <item>#118 | Water</item>
+        <item>#119 | Water</item>
+        <item>#120 | Water</item>
+        <item>#121 | Water, Psychic</item>
+        <item>#122 | Psychic, Fairy</item>
+        <item>#123 | Bug, Flying</item>
+        <item>#124 | Ice, Psychic</item>
+        <item>#125 | Electric</item>
+        <item>#126 | Fire</item>
+        <item>#127 | Bug</item>
+        <item>#128 | Normal</item>
+        <item>#129 | Water</item>
+        <item>#130 | Water, Flying</item>
+        <item>#131 | Water, Ice</item>
+        <item>#132 | Normal</item>
+        <item>#133 | Normal</item>
+        <item>#134 | Water</item>
+        <item>#135 | Electric</item>
+        <item>#136 | Fire</item>
+        <item>#137 | Normal</item>
+        <item>#138 | Rock, Water</item>
+        <item>#139 | Rock, Water</item>
+        <item>#140 | Rock, Water</item>
+        <item>#141 | Rock, Water</item>
+        <item>#142 | Rock, Flying</item>
+        <item>#143 | Normal</item>
+        <item>#144 | Ice, Flying</item>
+        <item>#145 | Electric, Flying</item>
+        <item>#146 | Fire, Flying</item>
+        <item>#147 | Dragon</item>
+        <item>#148 | Dragon</item>
+        <item>#149 | Dragon, Flying</item>
+        <item>#150 | Psychic</item>
+        <item>#151 | Psychic</item>
+    </string-array>
+
+    <string-array name="achievement_descriptions_shiny">
+        <item>placeholder</item>
+        <item>#001 | Grass, Poison | SHINY</item>
+        <item>#002 | Grass, Poison | SHINY</item>
+        <item>#003 | Grass, Poison | SHINY</item>
+        <item>#004 | Fire | SHINY</item>
+        <item>#005 | Fire | SHINY</item>
+        <item>#006 | Fire, Flying | SHINY</item>
+        <item>#007 | Water | SHINY</item>
+        <item>#008 | Water | SHINY</item>
+        <item>#009 | Water | SHINY</item>
+        <item>#010 | Bug | SHINY</item>
+        <item>#011 | Bug | SHINY</item>
+        <item>#012 | Bug, Flying | SHINY</item>
+        <item>#013 | Bug, Poison | SHINY</item>
+        <item>#014 | Bug, Poison | SHINY</item>
+        <item>#015 | Bug,  | SHINY</item>
+        <item>#016 | Normal, Flying | SHINY</item>
+        <item>#017 | Normal, Flying | SHINY</item>
+        <item>#018 | Normal, Flying | SHINY</item>
+        <item>#019 | Normal | SHINY</item>
+        <item>#020 | Normal | SHINY</item>
+        <item>#021 | Normal, Flying | SHINY</item>
+        <item>#022 | Normal, Flying | SHINY</item>
+        <item>#023 | Poison | SHINY</item>
+        <item>#024 | Poison | SHINY</item>
+        <item>#025 | Electric | SHINY</item>
+        <item>#026 | Electric | SHINY</item>
+        <item>#027 | Ground | SHINY</item>
+        <item>#028 | Ground | SHINY</item>
+        <item>#029 | Poison | SHINY</item>
+        <item>#030 | Poison | SHINY</item>
+        <item>#031 | Poison, Ground | SHINY</item>
+        <item>#032 | Poison | SHINY</item>
+        <item>#033 | Poison | SHINY</item>
+        <item>#034 | Poison, Ground | SHINY</item>
+        <item>#035 | Fairy | SHINY</item>
+        <item>#036 | Fairy | SHINY</item>
+        <item>#037 | Fire | SHINY</item>
+        <item>#038 | Fire | SHINY</item>
+        <item>#039 | Normal, Fairy | SHINY</item>
+        <item>#040 | Normal, Fairy | SHINY</item>
+        <item>#041 | Poison, Flying | SHINY</item>
+        <item>#042 | Poison, Flying | SHINY</item>
+        <item>#043 | Grass, Poison | SHINY</item>
+        <item>#044 | Grass, Poison | SHINY</item>
+        <item>#045 | Grass, Poison | SHINY</item>
+        <item>#046 | Bug, Grass | SHINY</item>
+        <item>#047 | Bug, Grass | SHINY</item>
+        <item>#048 | Bug, Poison | SHINY</item>
+        <item>#049 | Bug, Poison | SHINY</item>
+        <item>#050 | Ground | SHINY</item>
+        <item>#051 | Ground | SHINY</item>
+        <item>#052 | Normal | SHINY</item>
+        <item>#053 | Normal | SHINY</item>
+        <item>#054 | Water | SHINY</item>
+        <item>#055 | Water | SHINY</item>
+        <item>#056 | Fighting | SHINY</item>
+        <item>#057 | Fighting | SHINY</item>
+        <item>#058 | Fire | SHINY</item>
+        <item>#059 | Fire | SHINY</item>
+        <item>#060 | Water | SHINY</item>
+        <item>#061 | Wate | SHINYr</item>
+        <item>#062 | Water, Fighting | SHINY</item>
+        <item>#063 | Psychic | SHINY</item>
+        <item>#064 | Psychic | SHINY</item>
+        <item>#065 | Psychic | SHINY</item>
+        <item>#066 | Fighting | SHINY</item>
+        <item>#067 | Fighting | SHINY</item>
+        <item>#068 | Fighting | SHINY</item>
+        <item>#069 | Grass, Poison | SHINY</item>
+        <item>#070 | Grass, Poison | SHINY</item>
+        <item>#071 | Grass, Poison | SHINY</item>
+        <item>#072 | Water, Poison | SHINY</item>
+        <item>#073 | Water, Poison | SHINY</item>
+        <item>#074 | Rock, Ground | SHINY</item>
+        <item>#075 | Rock, Ground | SHINY</item>
+        <item>#076 | Rock, Ground | SHINY</item>
+        <item>#077 | Fire | SHINY</item>
+        <item>#078 | Fire | SHINY</item>
+        <item>#079 | Water, Psychic | SHINY</item>
+        <item>#080 | Water, Psychic | SHINY</item>
+        <item>#081 | Electric, Steel | SHINY</item>
+        <item>#082 | Electric, Steel | SHINY</item>
+        <item>#083 | Normal, Flying | SHINY</item>
+        <item>#084 | Normal, Flying | SHINY</item>
+        <item>#085 | Normal, Flying | SHINY</item>
+        <item>#086 | Water | SHINY</item>
+        <item>#087 | Water, Ice | SHINY</item>
+        <item>#088 | Poison | SHINY</item>
+        <item>#089 | Poison | SHINY</item>
+        <item>#090 | Water | SHINY</item>
+        <item>#091 | Water, Ice | SHINY</item>
+        <item>#092 | Ghost, Poison | SHINY</item>
+        <item>#093 | Ghost, Poison | SHINY</item>
+        <item>#094 | Ghost, Poison | SHINY</item>
+        <item>#095 | Rock, Ground | SHINY</item>
+        <item>#096 | Psychic | SHINY</item>
+        <item>#097 | Psychic | SHINY</item>
+        <item>#098 | Water | SHINY</item>
+        <item>#099 | Water | SHINY</item>
+        <item>#100 | Electric | SHINY</item>
+        <item>#101 | Electric | SHINY</item>
+        <item>#102 | Grass, Psychic | SHINY</item>
+        <item>#103 | Grass, Psychic | SHINY</item>
+        <item>#104 | Ground | SHINY</item>
+        <item>#105 | Ground | SHINY</item>
+        <item>#106 | Fighting | SHINY</item>
+        <item>#107 | Fighting | SHINY</item>
+        <item>#108 | Normal | SHINY</item>
+        <item>#109 | Poison | SHINY</item>
+        <item>#110 | Poison | SHINY</item>
+        <item>#111 | Ground, Rock | SHINY</item>
+        <item>#112 | Ground, Rock | SHINY</item>
+        <item>#113 | Normal | SHINY</item>
+        <item>#114 | Grass | SHINY</item>
+        <item>#115 | Normal | SHINY</item>
+        <item>#116 | Water | SHINY</item>
+        <item>#117 | Water | SHINY</item>
+        <item>#118 | Water | SHINY</item>
+        <item>#119 | Water | SHINY</item>
+        <item>#120 | Water | SHINY</item>
+        <item>#121 | Water, Psychic | SHINY</item>
+        <item>#122 | Psychic, Fairy | SHINY</item>
+        <item>#123 | Bug, Flying | SHINY</item>
+        <item>#124 | Ice, Psychic | SHINY</item>
+        <item>#125 | Electric | SHINY</item>
+        <item>#126 | Fire | SHINY</item>
+        <item>#127 | Bug | SHINY</item>
+        <item>#128 | Normal | SHINY</item>
+        <item>#129 | Water | SHINY</item>
+        <item>#130 | Water, Flying | SHINY</item>
+        <item>#131 | Water, Ice | SHINY</item>
+        <item>#132 | Normal | SHINY</item>
+        <item>#133 | Normal | SHINY</item>
+        <item>#134 | Water | SHINY</item>
+        <item>#135 | Electric | SHINY</item>
+        <item>#136 | Fire | SHINY</item>
+        <item>#137 | Normal | SHINY</item>
+        <item>#138 | Rock, Water | SHINY</item>
+        <item>#139 | Rock, Water | SHINY</item>
+        <item>#140 | Rock, Water | SHINY</item>
+        <item>#141 | Rock, Water | SHINY</item>
+        <item>#142 | Rock, Flying | SHINY</item>
+        <item>#143 | Normal | SHINY</item>
+        <item>#144 | Ice, Flying | SHINY</item>
+        <item>#145 | Electric, Flying | SHINY</item>
+        <item>#146 | Fire, Flying | SHINY</item>
+        <item>#147 | Dragon | SHINY</item>
+        <item>#148 | Dragon | SHINY</item>
+        <item>#149 | Dragon, Flying | SHINY</item>
+        <item>#150 | Psychic | SHINY</item>
+        <item>#151 | Psychic | SHINY</item>
+    </string-array>
+
+    <string-array name="achievement_colors">
+        <item>placeholder</item>
+        <item>green</item>
+        <item>green</item>
+        <item>green</item>
+        <item>red</item>
+        <item>red</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>white</item>
+        <item>white</item>
+        <item>white</item>
+        <item>white</item>
+        <item>white</item>
+        <item>white</item>
+        <item>white</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>yellow</item>
+        <item>yellow</item>
+        <item>brown</item>
+        <item>brown</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>pink</item>
+        <item>pink</item>
+        <item>red</item>
+        <item>red</item>
+        <item>white</item>
+        <item>white</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>green</item>
+        <item>green</item>
+        <item>green</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>darkgreen</item>
+        <item>brown</item>
+        <item>brown</item>
+        <item>white</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>darkred</item>
+        <item>darkred</item>
+        <item>red</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>darkpink</item>
+        <item>darkpink</item>
+        <item>darkpink</item>
+        <item>darkred</item>
+        <item>darkred</item>
+        <item>darkred</item>
+        <item>green</item>
+        <item>green</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>darkbrown</item>
+        <item>darkbrown</item>
+        <item>darkbrown</item>
+        <item>red</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>yellow</item>
+        <item>white</item>
+        <item>white</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>darkpurple</item>
+        <item>darkpurple</item>
+        <item>darkpurple</item>
+        <item>darkbrown</item>
+        <item>darkpink</item>
+        <item>darkpink</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>yellow</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>green</item>
+        <item>brown</item>
+        <item>brown</item>
+        <item>darkred</item>
+        <item>darkred</item>
+        <item>white</item>
+        <item>purple</item>
+        <item>purple</item>
+        <item>brown</item>
+        <item>brown</item>
+        <item>white</item>
+        <item>green</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>darkpink</item>
+        <item>darkgreen</item>
+        <item>lightblue</item>
+        <item>yellow</item>
+        <item>red</item>
+        <item>darkgreen</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>blue</item>
+        <item>white</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>yellow</item>
+        <item>white</item>
+        <item>darkbrown</item>
+        <item>darkbrown</item>
+        <item>darkbrown</item>
+        <item>darkbrown</item>
+        <item>darkbrown</item>
+        <item>white</item>
+        <item>lightblue</item>
+        <item>yellow</item>
+        <item>red</item>
+        <item>lightpurple</item>
+        <item>lightpurple</item>
+        <item>lightpurple</item>
+        <item>darkpink</item>
+        <item>darkpink</item>
+    </string-array>
+
+    <string name="About_Petductivity_Credits">
+        Application Icon made by Freepik (https://www.freepik.com) from www.flaticon.com\n\n
+        Pokeball Icon (used in Petductivity Name)\n made by Nikita Golubev from www.flaticon.com\n\n
+        Planner Icon made by Vectors Market from www.flaticon.com\n\n
+        Important Tasks Icon made by Freepik (https://www.freepik.com) from www.flaticon.com\n\n
+        Pets Icon made by Nikita Golubev from www.flaticon.com\n\n
+        Achievement Icon made by Freepik (https://www.freepik.com) from www.flaticon.com\n\n
+        Leaderboard Icon made by Freepik (https://www.freepik.com) from www.flaticon.com\n\n
+        Phone Icon (used in Login Page) made by Freepik (https://www.freepik.com) from www.flaticon.com\n\n
+        Badge Icon (used in Achievement Page) made by Roundicons Freebies from www.flaticon.com\n\n
+        Medal Icon (used in Leaderboard Page) made by Vectors Market from www.flaticon.com\n\n
+        Various Pokemon Icons made by ARTIFICIAL DESIGN from https://theartificial.nl/pokemonicons/\n\n
+        Other Icons from Android Studio Vector Asset.
+    </string>
+
+    <string name="About_Petductivity">
+        Petductivity is an Android Mobile Planner Application that aims to motivate you to stay focus on your task.
+        We can help you organise your daily activities and be more productive.
+    </string>
+
+    <string name="About_Petductivity_Features">
+        My Planner\nImportant Tasks\nMy Pets\nAchievements\nLeaderboard
+    </string>
+
+    <string name="About_Petductivity_TechStack">
+        Android Studio
+        \nJava
+        \nGoogle Firebase
+    </string>
+
+    <string name="Help_How_To_Use">
+        My Planner - My Planner feature can be used for long term planning of your daily activities.
+        You will be able to organise and plan your day effectively.
+        You can add, edit and delete them easily.
+        Simply click on the date you wish to plan activities for, and you will be brought into the weekly view.
+        From there, click on the button with a plus sign to add new activities to your day.
+        To edit or delete the activity, just tap on the activity you wish to edit or delete.
+        Once you have successfully completed the activity, check the checkbox on the left hand side so that your pet can receive experience points and evolve.\n \n
+
+        Important Tasks - Important Tasks feature can be used for short term or immediate tasks planning.
+        It works similarly to My Planner feature, except that this requires you to set the due date of your task instead of its duration.\n \n
+
+        My Pets - My Pets features allows you to see your pet.
+        Track your progress and see how productive you have been, indicated by the level of your pet.\n \n
+
+        Achievements - This feature allows you to see the lists of badges you have earned.\n \n
+
+        Leaderboard - Allows you to check your ranking among all Petductivity app users.\n \n
+
+        Focus Mode - Unique to our app, this feature unlocks when you successfully complete all tasks planned for a day.
+        Upon unlocking focus mode, you get bonus experience points, which scales based on the durations of the tasks you have completed for the day.
+        By being more productive, it helps you to level up and evolve your pet faster! On top of that, you get to earn additional rewards for unlocking focus mode!
+    </string>
+
+    <string name="Help_How_Many_Badges">
+        Currently, only the Kanto Region Pokemon (total of 151 shiny and 151 non-shiny) are available.
+    </string>
+
+    <string name="How_to_get_more_badges">
+        Every time you complete a task or unlock focus mode, you get a chance to unlock a new badge.\n\n
+        The badges are awarded randomly, therefore, even if you have already unlocked a specific badge, you can still unlock the same badge again.
+    </string>
+
+    <string name="Feedback_Link">
+        <a href="https://forms.gle/e6UE6oFkSjJoYd4t7">Petductivity Feedback Form</a>
+    </string>
+
+    <string name="Petductivity_Email">
+        <a href="teampetductivity@gmail.com">teampetductivity@gmail.com</a>
+    </string>
+
+    <string name="About_leveling">
+        Bulbasaur, Charmander and Squirtle will evolve at level 30 and level 60.
+        However, Pikachu will never evolve.
+    </string>
+
+    <string name="Disclaimer_Message">
+        This app is not affiliated, endorsed or supported by Nintendo Pokemon in any way.
+        All Pokemon Images, names and references are trademark of Nintendo, no copyright infringement intended.
+        All icons and images used are property of the original artist, no copyright infringement intended.
+    </string>
+
+    <string name="Not_Getting_Exp">
+        In order to receive experience points or to be awarded a badge, you have to complete a task that is at least 30 minutes long.
+    </string>
+
+    <string name="achivement_help">
+        The badges are awarded randomly, based on RNG.\n\nIn order to be awarded a badge, you will have to complete a task that is at least 30 minutes long.\n\nYou will receive an additional badge (per day) when you unlock Focus Mode.\n\nThere is no specific mission that you can complete that will allow you to unlock a specific badges.\n\n Visit Help under settings for more info.
+    </string>
+
+    <string name="planner_help">
+        1. Select and click on the date you want. (Use the up/down arrows to navigate to the month you want)\n2. Click on the button on the bottom right to add a new activity for the selected date.\n3. Enter the relavant details for the activity.\n4. To edit/delete the activity, tap on the activity you wish to edit/delete.\n5. Upon completing an activity, click on the checkbox to receive your experience points and rewards.\n\n NOTE: Once a task is completed, it will disappear from the dashboard. In order to receive exp/badges, the completed task has to be at least 30 minutes long. Focus Mode can only be unlocked once per day. Visit Help under settings for more info.
+    </string>
+
+    <string name="task_help">
+        1. Click on the button on the bottom right to add a task.\n2. Enter the relevant details and decide whether you want to receive reminders.\n3. Reminders will be sent out at the beginning(around 0000hrs) of the due date of the task.\n4. Click on the checkbox once you have completed your task.\n\nNote: Once completed, the task will be removed from the dashboard. Visit Help section under settings from more info.
+    </string>
+</resources>

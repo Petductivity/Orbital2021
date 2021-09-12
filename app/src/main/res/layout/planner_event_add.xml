@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".planner.PlannerWeekActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#800000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/plannerCancelBtn"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_baseline_close_28"></ImageView>
+
+            <TextView
+                android:id="@+id/eventDateTV"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="3"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="Date"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="@color/azureish_white"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/plannerSaveBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Save"
+                android:textColor="@color/azureish_white"
+                android:background="@null"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#3D0C02"
+            android:layout_marginTop="60dp"></View>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity:"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/azureish_white"/>
+
+        <EditText
+            android:id="@+id/activityNameET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:gravity="center"
+            android:inputType="text"
+            android:textColor="@color/azureish_white"
+            android:textColorHighlight="@color/azureish_white"
+            android:textColorHint="@color/azureish_white"
+            android:textColorLink="@color/azureish_white"
+            android:textCursorDrawable="@color/azureish_white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/startTimeTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Start: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/azureish_white"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/startTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:text="00:00"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/azureish_white"
+            app:backgroundTint="#9A9A9A"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"></TextView>
+
+        <TextView
+            android:id="@+id/endTimeTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="End: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/azureish_white"/>
+
+        <Button
+            android:id="@+id/endTimeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@null"
+            android:text="00:30"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/azureish_white"
+            app:backgroundTint="#9A9A9A"
+            android:layout_marginRight="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

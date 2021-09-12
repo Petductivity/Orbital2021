@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".settings.SettingActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgTextViewSetting">
+
+        <TextView
+            android:id="@+id/changePasswordTextView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   Change Password"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/changeNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   Change Account Name"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/helpTextViewSetting"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_help_center_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   Help"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/aboutPetductivityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   About Petductivity"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/feedbackTextView"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_feedback_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   Provide Feedback"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deleteAccountTextViewSetting"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_delete_forever_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   Delete Account"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/logoutTextViewSetting"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#222222"
+            android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dip"
+            android:paddingRight="30dip"
+            android:text="   Log Out"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/arrowClickSettings"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+    <TextView
+        android:id="@+id/bgTextViewSetting"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/royal_blue"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:drawableRight="@drawable/ic_baseline_settings_24"
+        android:paddingLeft="17dip"
+        android:paddingTop="5dip"
+        android:paddingRight="37dip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
