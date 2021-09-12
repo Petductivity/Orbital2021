@@ -1,7 +1,9 @@
-# Petductivity
+# Petductivity 
 
 ## About
 Petductivity is an Android mobile application that provides you with the motivation to plan and focus on your daily tasks. The application seeks to help users plan and execute their essential tasks (eg. homeworks and projects) by giving reminders and rewards users with in-app achievements.
+
+![gif](images/Homepage.jpg)
 
 ## Installation
 
@@ -34,21 +36,34 @@ Ensure that your device runs on Android API 26 and above, otherwise some feature
 
 To register: Click on `Need an account? Create an Account Here!`
 
+![gif](images/Login Registration/Registration.gif) ![gif](images/Login Registration/Verification.gif)
+
 Additional Feature: If you have forgotten your password, fret not! You can reset your passsword by clicking on `Forget Password` at the Login Page.
 
+![gif](images/Login Registration/reset password.gif)
 
 ## My Planner
 
 You will be able to see the overview of the entire month. 
 Click on the specific date that you wish to plan your activites. You will be brought to a week view page. 
+
+![gif](images/Planner/Planner dashboard.jpg)
+
 In the week view page, you will be able to add an activity for the selected date by clicking on the `+` button on the bottom left hand corner of the screen. 
 You will be required to key in the following information: 
 1. `Title`
 2. `Start time`
 3. `End time`
 
+![gif](images/Planner/Add Activity.gif)
+
 You will be able to edit/delete the details of your activity by clicking on the activity that you wish to edit/delete.
+
+![gif](images/Planner/Update Activity.gif) ![gif](images/Planner/Delete Activity.gif)
+
 After completing an activity, you can check on the checkbox and receive your rewards.
+
+![gif](images/Planner/Activity Complete.gif)
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
@@ -56,6 +71,9 @@ Additional feature: If you are unsure of how this section works, you can click o
 ## Important Tasks
 
 You will be able to see your list of todos in this section. 
+
+![gif](images/Important Task/Dashboard.jpg)
+
 You can add new tasks by clicking on the `+` button on the bottom left hand corner of the screen.
 You will be required to key in the following information: 
 1. `Title`
@@ -63,9 +81,14 @@ You will be required to key in the following information:
 3. `Due date`
 4. `Set Reminder` - switch it on if you wish to receive reminders on the due date, otherwise switch it off.
 
+![gif](images/Important Task/Add task.gif) ![gif](images/Important Task/Reminder.gif)
+
 You will be able to edit/delete the details of your task by clicking on the task that you wish to edit/delete.
 
+![gif](images/Important Task/Update task.gif) ![gif](images/Important Task/Delete task.gif)
+
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
+
 
 
 ## My Pets
@@ -77,6 +100,7 @@ Once the pet reaches a certain level, it will automatically evolve to the next e
 
 However, do take note that for you pet to receive experience points, your completed tasks must be atleast **30 minutes** long.
 
+![gif](images/Pets/Pets.gif)
 
 ## Achievements
 
@@ -90,12 +114,14 @@ Pokemon from other regions will be progressively added into the list of collecti
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
+![gif](images/Achievements/Achievement.gif)
 
 ## Leaderboard
 
 You will be able to see your rankings among all other app users in this section.
 You can make use of this section to see how productive you have been (if you are the competitive type).
 
+![gif](images/Leaderboard/leaderboard.gif)
 
 ## Focus Mode
 
@@ -111,35 +137,51 @@ However, do take note that Focus Mode can only be unlocked **once per day**.
 
 In this section, you can change your account settings.
 
+![gif](images/Settings/Dashboard.gif)
+
 ### Change Name
 
 Allows you to change your account name, which will be displayed in the `Leaderboard` section.
 
+![gif](images/Settings/change name.gif)
+
 ### Change Password
 
 Allows you to change your account password.
+
+![gif](images/Settings/change pw.gif)
 
 ### Help 
 
 Allows you to view commonly asked questions and commonly faced difficulties.
 You can also find our email address and contact us directly.
 
+![gif](images/Settings/help.gif)
+
 ### About Petductivity
 
 Allows you to find out more about this application.
+
+![gif](images/Settings/about.gif)
 
 ### Provide Feedback
 
 Click on the `Petductivity Feedback Form`.
 This will bring you to your browser where a google form will be loaded. You can provide your feedback through the google forms.
 
+![gif](images/Settings/Feedback open.gif)
+
 ### Delete Account
 
 Allows you to delete your account, including all of your account data.
 
+![gif](images/Settings/delete acc.gif)
+
 ### Logout
 
 Allows you to logout of your current account.
+
+![gif](images/Settings/logout.gif)
 
 
 ## Acknowledgement
