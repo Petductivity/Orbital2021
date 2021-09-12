@@ -3,13 +3,16 @@
 ## About
 Petductivity is an Android mobile application that provides you with the motivation to plan and focus on your daily tasks. The application seeks to help users plan and execute their essential tasks (eg. homeworks and projects) by giving reminders and rewards users with in-app achievements.
 
-![gif](images/Homepage.jpg)
+![gif](images/Homepage.png)
 
 ## Installation
 
-You can try out our application by downloading it from [here](https://drive.google.com/file/d/1c2lXfnOhVCkVk_ovGtj6ceajoYZQ5ZH7/view?usp=sharing).
+You can try out our application by scanning the QR code and download the application from [here](https://drive.google.com/file/d/1yQEzUOT6jeE52mxH8StiuewJZPkXu_LI/view?usp=sharing).
+
+Watch the [video](https://drive.google.com/file/d/17kONQtHoFpVXdBSrbZgMlmx4bsCDAY86/view?usp=sharing) on how to start using Petductivity!
 
 Ensure that your device runs on Android API 26 and above, otherwise some features may not work as expected.
+
 **Take note**: 
 1. Ensure that your device runs on Android API 26 and above, otherwise some features may not work as expected.
 2. This application is meant for Android mobile phones only, hence if you are using a tablet, it may not work as expected.
@@ -47,7 +50,7 @@ Additional Feature: If you have forgotten your password, fret not! You can reset
 You will be able to see the overview of the entire month. 
 Click on the specific date that you wish to plan your activites. You will be brought to a week view page. 
 
-![gif](images/Planner/Planner dashboard.jpg)
+![gif](images/Planner/dashboard2.png)  ![gif](images/Planner/dashboard1.png)
 
 In the week view page, you will be able to add an activity for the selected date by clicking on the `+` button on the bottom left hand corner of the screen. 
 You will be required to key in the following information: 
@@ -72,7 +75,7 @@ Additional feature: If you are unsure of how this section works, you can click o
 
 You will be able to see your list of todos in this section. 
 
-![gif](images/Important Task/Dashboard.jpg)
+![gif](images/Important Task/dashboard.png)
 
 You can add new tasks by clicking on the `+` button on the bottom left hand corner of the screen.
 You will be required to key in the following information: 
@@ -198,6 +201,14 @@ Allows you to logout of your current account.
 10. [Leaderboard Icon](https://www.flaticon.com/free-icon/podium_1386734?term=leaderboard&page=1&position=64&page=1&position=64&related_id=1386734&origin=search) by Freepik from www.flaticon.com 
 11. [Medal Icon](https://www.flaticon.com/free-icon/medal_744922?term=medal&page=1&position=4&page=1&position=4&related_id=744922&origin=search) by Vectors Market from www.flaticon.com
 12. Other icons used from Android Studio Vector Assests.
+
+
+## Development Tech Stack
+1. Android Studio
+2. Java 
+3. Firebase
+4. Google Drive
+5. Google Forms
 
 
 ## Disclaimer
