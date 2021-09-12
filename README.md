@@ -9,7 +9,7 @@ Petductivity is an Android mobile application that provides you with the motivat
 
 You can try out our application by scanning the QR code and download the application from [here](https://drive.google.com/file/d/1yQEzUOT6jeE52mxH8StiuewJZPkXu_LI/view?usp=sharing).
 
-Watch the [video](https://drive.google.com/file/d/17kONQtHoFpVXdBSrbZgMlmx4bsCDAY86/view?usp=sharing) on how to start using Petductivity!
+Watch the [video](https://drive.google.com/file/d/1vSFqG4OPiy7X9yxR2ujCiS7FxZZ6lQm7/view?usp=sharing) on how to start using Petductivity!
 
 Ensure that your device runs on Android API 26 and above, otherwise some features may not work as expected.
 
@@ -39,11 +39,8 @@ Ensure that your device runs on Android API 26 and above, otherwise some feature
 
 To register: Click on `Need an account? Create an Account Here!`
 
-![gif](images/Registration.gif) ![gif](images/Verification.gif)
-
 Additional Feature: If you have forgotten your password, fret not! You can reset your passsword by clicking on `Forget Password` at the Login Page.
 
-![gif](images/reset password.gif)
 
 ## My Planner
 
@@ -58,15 +55,9 @@ You will be required to key in the following information:
 2. `Start time`
 3. `End time`
 
-![gif](images/Add Activity.gif)
-
 You will be able to edit/delete the details of your activity by clicking on the activity that you wish to edit/delete.
 
-![gif](images/Update Activity.gif) ![gif](images/Delete Activity.gif)
-
 After completing an activity, you can check on the checkbox and receive your rewards.
-
-![gif](images/Activity Complete.gif)
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
@@ -84,15 +75,10 @@ You will be required to key in the following information:
 3. `Due date`
 4. `Set Reminder` - switch it on if you wish to receive reminders on the due date, otherwise switch it off.
 
-![gif](images/Add task.gif) ![gif](images/Reminder.gif)
 
 You will be able to edit/delete the details of your task by clicking on the task that you wish to edit/delete.
 
-![gif](images/Update task.gif) ![gif](images/Delete task.gif) 
-
 You can check on the checkbox when you have completed the task.
-
-![gif](images/Complete task.gif)
 
 Additional feature: If you are unsure of how this section works, you can click on the `?` icon on the top left hand corner.
 
@@ -150,45 +136,36 @@ In this section, you can change your account settings.
 
 Allows you to change your account name, which will be displayed in the `Leaderboard` section.
 
-![gif](images/Settings/change name.gif)
-
 ### Change Password
 
 Allows you to change your account password.
-
-![gif](images/Settings/change pw.gif)
 
 ### Help 
 
 Allows you to view commonly asked questions and commonly faced difficulties.
 You can also find our email address and contact us directly.
 
-![gif](images/Settings/help.gif)
 
 ### About Petductivity
 
 Allows you to find out more about this application.
 
-![gif](images/Settings/about.gif)
 
 ### Provide Feedback
 
 Click on the `Petductivity Feedback Form`.
 This will bring you to your browser where a google form will be loaded. You can provide your feedback through the google forms.
 
-![gif](images/Settings/Feedback open.gif)
 
 ### Delete Account
 
 Allows you to delete your account, including all of your account data.
 
-![gif](images/Settings/delete acc.gif)
 
 ### Logout
 
 Allows you to logout of your current account.
 
-![gif](images/Settings/logout.gif)
 
 
 ## Acknowledgement
