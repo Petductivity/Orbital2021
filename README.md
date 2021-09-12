@@ -39,6 +39,8 @@ Ensure that your device runs on Android API 26 and above, otherwise some feature
 
 To register: Click on `Need an account? Create an Account Here!`
 
+![image](images/login.png) ![image](images/register.png)
+
 Additional Feature: If you have forgotten your password, fret not! You can reset your passsword by clicking on `Forget Password` at the Login Page.
 
 
