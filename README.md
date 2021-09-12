@@ -68,7 +68,7 @@ Additional feature: If you are unsure of how this section works, you can click o
 
 You will be able to see your list of todos in this section. 
 
-![gif](images/Important task.png)
+![gif](images/task.png)
 
 You can add new tasks by clicking on the `+` button on the bottom left hand corner of the screen.
 You will be required to key in the following information: 
